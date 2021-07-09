@@ -19,7 +19,6 @@ class Portal extends React.Component {
 class EditPostModal extends React.Component {
     constructor(props){
         super(props);
-        //userId:Number(this.props.postItemInfo.userId)
         this.state = {
             userId:this.props.postItemInfo[0].userId,
             id: Number(this.props.postId),

@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import {withRouter} from "react-router-dom";
 import {requestPostDetails,editPost,delPost} from '../redux/postDetailsReducer';
-import {NavLink} from "react-router-dom";
 import s from '../styles/PostDetailsContainer.module.css';
 import EditPostModal from '../modal/EditPostModal';
 import DeletePostModal from '../modal/DeletePostModal';
