@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route,Redirect} from 'react-router-dom';
+import UsersContainer from './components/UsersContainer';
+import PostsContainer from './components/PostsContainer';
+import PostDetailsContainer from './components/PostDetailsContainer';
 
-function App() {
+const App = () => {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Route exact path='/' render={() => <Redirect to={'/users'}/>}/>
+      <Route path='/users' render={()=><UsersContainer/>} />
+      <Route path='/posts/:userId?' render={()=><PostsContainer/>} />
+      <Route path='/postDetails/:postId?' render={()=><PostDetailsContainer/>} />
     </div>
   );
 }

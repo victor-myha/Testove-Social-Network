@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(243, 241, 239);
+}
+.UserCard{
+   
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    padding: 15px;
+    margin: 20px;
+    /* text-align: center; */
+}
+.userInfo{
+    margin-left: 15px;
+}
+.userInfo div{
+margin: 10px;
+}
+.mainContentWrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+.UsersContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 800px;
+}
+.imgWrapper{
+    max-width:  250px;
+}
+.imgWrapper img{
+    width: 100%;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(3, 52, 85);
+}
+.company{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(11, 26, 36);
+}
+.contacts{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(11, 26, 36);
+}
+.website{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(11, 26, 36);
+}
+.address{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(11, 26, 36);
+}
+.usersBtn{
+    width: 50%;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: rgb(102 135 146 / 85%);
+    border-radius: 5px;
+    color: white;
+}
+.usersBtn:hover{
+    background-color: rgb(83 129 144 / 85%);
+}
