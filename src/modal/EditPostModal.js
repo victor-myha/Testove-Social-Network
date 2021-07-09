@@ -51,9 +51,9 @@ class EditPostModal extends React.Component {
                         
                         <div className={s.modalBody}>
                            
-                                <form onSubmit={this.handleSubmit}>
-                                    <input type="text" name="title" value={this.state.title} onChange={this.handleChanges} placeholder="Type Post Title"/>
-                                    <input type="text" name="body" value={this.state.body} onChange={this.handleChanges} placeholder="Type Body Title"/>
+                                <form className={s.form} onSubmit={this.handleSubmit}>
+                                    <input className={s.formInput} type="text" name="title" value={this.state.title} onChange={this.handleChanges} placeholder="Type Post Title"/>
+                                    <textarea className={s.formInput} type="text" name="body" value={this.state.body} onChange={this.handleChanges} placeholder="Type Body Title"/>
                                     <div className={s.modalFooter}>
                                         <button type="submit" className={s.Submit}>Зберегти</button>
                                         <button onClick={this.props.modalCancel} className={s.Cancel}>Скасувати</button>

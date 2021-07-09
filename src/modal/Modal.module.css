@@ -73,6 +73,7 @@
     opacity: 1;
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 .modalFooter button{
     opacity: 1;

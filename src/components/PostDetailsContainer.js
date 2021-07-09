@@ -72,11 +72,11 @@ class PostDetailsContainer extends React.Component {
                             <div className={s.body}>{pI.body}</div>
                         </div>
                     })
-                    : <h3>Пости відсутні</h3>
+                    : <h3>Пост видалений</h3>
                 }
             </div>
             
-            
+            {this.props.postItemInfo[0] ?
             <div className={s.commentsWrap}>
                 <div className={s.commentsContainer}>
                     <hr/>
@@ -99,7 +99,8 @@ class PostDetailsContainer extends React.Component {
                         </div>
                 </div>
             </div>
-            
+            : <h3>Коментарі недоступні</h3>
+            }
             {this.state.modalOpen &&
             <EditPostModal modalOpen={this.state.modalOpen}  postId={postId} postItemInfo={this.props.postItemInfo} title='Редагування поста' modalCancel={this.modalCancel} modalSubmit={this.modalSubmit}/>
         }
