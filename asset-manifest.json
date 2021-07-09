@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Testove-Social-Network/static/css/main.b5541e1a.chunk.css",
+    "main.js": "/Testove-Social-Network/static/js/main.1a32edd0.chunk.js",
+    "main.js.map": "/Testove-Social-Network/static/js/main.1a32edd0.chunk.js.map",
+    "runtime-main.js": "/Testove-Social-Network/static/js/runtime-main.42c1f330.js",
+    "runtime-main.js.map": "/Testove-Social-Network/static/js/runtime-main.42c1f330.js.map",
+    "static/js/2.8002c9d6.chunk.js": "/Testove-Social-Network/static/js/2.8002c9d6.chunk.js",
+    "static/js/2.8002c9d6.chunk.js.map": "/Testove-Social-Network/static/js/2.8002c9d6.chunk.js.map",
+    "static/js/3.d49366f1.chunk.js": "/Testove-Social-Network/static/js/3.d49366f1.chunk.js",
+    "static/js/3.d49366f1.chunk.js.map": "/Testove-Social-Network/static/js/3.d49366f1.chunk.js.map",
+    "index.html": "/Testove-Social-Network/index.html",
+    "static/css/main.b5541e1a.chunk.css.map": "/Testove-Social-Network/static/css/main.b5541e1a.chunk.css.map",
+    "static/js/2.8002c9d6.chunk.js.LICENSE.txt": "/Testove-Social-Network/static/js/2.8002c9d6.chunk.js.LICENSE.txt",
+    "static/media/edit.0f46e272.png": "/Testove-Social-Network/static/media/edit.0f46e272.png",
+    "static/media/user.c4ae9254.png": "/Testove-Social-Network/static/media/user.c4ae9254.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42c1f330.js",
+    "static/js/2.8002c9d6.chunk.js",
+    "static/css/main.b5541e1a.chunk.css",
+    "static/js/main.1a32edd0.chunk.js"
+  ]
+}
